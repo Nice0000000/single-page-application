@@ -1,4 +1,3 @@
-// src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import AboutMe from './pages/AboutMe';
@@ -6,7 +5,6 @@ import MyCity from './pages/MyCity';
 import MyFuture from './pages/MyFuture';
 import './index.css';
 
-// Швидкі вбудовані стилі
 const headerStyle = {
   backgroundColor: 'white',
   padding: '15px 0',
@@ -35,7 +33,6 @@ const navLinksStyle = {
   gap: '20px'
 };
 
-// Стилізація активного посилання
 const getNavLinkStyle = ({ isActive }) => ({
   color: isActive ? '#007bff' : '#555',
   textDecoration: 'none',
