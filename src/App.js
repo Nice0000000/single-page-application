@@ -97,7 +97,7 @@ function App() {
             <p style={{ margin: 0, opacity: 0.8 }}>© 2026 Ярослав. Усі права захищено.</p>
             <ul style={footerLinksStyle}>
               <li><a href="https://github.com/Nice0000000" target="_blank" rel="noreferrer" style={footerLinkItem}>GitHub</a></li>
-              <li><a href="#" style={footerLinkItem}>LinkedIn</a></li>
+              <a href="https://linkedin.com" style={footerLinkItem}>LinkedIn</a>
               <li><a href="mailto:your.email@example.com" style={footerLinkItem}>Email</a></li>
             </ul>
           </div>
